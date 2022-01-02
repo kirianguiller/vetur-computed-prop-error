@@ -2,6 +2,7 @@
 
 https://github.com/vuejs/vetur/issues/3295
 
+<!-- Check those before opening an issue -->
 
 - [X] I have searched through existing issues
 - [X] I have read through [docs](https://vuejs.github.io/vetur)
@@ -88,9 +89,19 @@ Property 'todos' does not exist on type 'CreateComponentPublicInstance<{ [x: str
 ```
 
 ### Repo
-You can find a full repo of the reproducible problem here : https://github.com/kirianguiller/vetur-computed-prop-error
+You can find a full repo of the reproducible problem here : https://github.com/kirianguiller/vetur-computed-prop-error.
+You just need to 
+```
+git clone https://github.com/kirianguiller/vetur-computed-prop-error
+cd vetur-computed-prop-error
+npm install
+```
+
+Then to open vscode and see the error in `src/pages/Index.vue` line 50
 
 ## Related Issues 
 I've looked at some issues, but I couldn't fix my problem with their recommendations. Here are the similar issues that I found (some of them are linking to other issues too) : 
 - https://github.com/vuejs/vetur/issues/2394
 - https://github.com/vuejs/vue/issues/9873
+
+Thank you a lot for your help and for your amazing work on making vue + TS so nice :)
